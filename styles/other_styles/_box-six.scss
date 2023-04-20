@@ -3,7 +3,7 @@
     // height: 868px;
     // width: 1280px;
     padding-top: 160px;
-    padding-bottom: 160px;
+    // padding-bottom: 160px;
     padding-left: 40px;
     padding-right: 40px;
     width: 100%;
@@ -24,6 +24,20 @@
             font-size: 48px;
             line-height: 58px;
             letter-spacing: -0.04em;
+            color: #000000;
+        }
+
+        h2{
+            width: 468px;
+            height: 44px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 44px;
+            letter-spacing: -0.04em;
+            text-align: center;
+            width: 100%;
             color: #000000;
         }
 
