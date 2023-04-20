@@ -1912,6 +1912,174 @@
   color: rgba(0, 0, 0, 0.6);
 }
 
+.ingredient-box {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.ingredient-box .ingredients-recipes {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.ingredient-box .ingredients-recipes .ingredients {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.ingredient-box .ingredients-recipes .ingredients .sauce {
+  margin-top: 25px;
+}
+.ingredient-box .ingredients-recipes .ingredients h2 {
+  width: 224px;
+  height: 44px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  padding-bottom: 10px;
+}
+.ingredient-box .ingredients-recipes .ingredients h3 {
+  width: 144px;
+  height: 29px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.04em;
+  color: #000000;
+  padding-top: 10px;
+}
+.ingredient-box .ingredients-recipes .ingredients .checkbox-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+.ingredient-box .ingredients-recipes .ingredients .checkbox-list input {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+}
+.ingredient-box .ingredients-recipes .ingredients .checkbox-list p {
+  width: 253px;
+  height: 22px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.ingredient-box .ingredients-recipes .ingredients .checkbox-list .opacity-none {
+  opacity: 0.1;
+}
+.ingredient-box .ingredients-recipes .other-recipe {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.ingredient-box .ingredients-recipes .other-recipe h3 {
+  width: 188px;
+  height: 39px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.ingredient-box .ingredients-recipes .other-recipe .img-text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 15px;
+}
+.ingredient-box .ingredients-recipes .other-recipe .img-text img {
+  border-radius: 20px;
+}
+.ingredient-box .ingredients-recipes .other-recipe .img-text .title-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.ingredient-box .ingredients-recipes .other-recipe .img-text .title-text h3 {
+  width: 190px;
+  height: 56px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.ingredient-box .ingredients-recipes .other-recipe .img-text .title-text h4 {
+  width: 113px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.ingredient-box .ingredients-recipes .other-recipe .green-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 220px;
+  z-index: 1;
+  position: relative;
+  width: 400px;
+  height: 434px;
+  background-image: url("../../assets/info-food-box/Rectangle 14.png");
+}
+.ingredient-box .ingredients-recipes .other-recipe .green-bg h3 {
+  width: 172px;
+  height: 60px;
+  font-family: "Lobster";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.ingredient-box .ingredients-recipes .other-recipe .green-bg .kfc {
+  position: absolute;
+  top: 70px;
+}
+.ingredient-box .ingredients-recipes .other-recipe .green-bg .star {
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+}
+.ingredient-box .ingredients-recipes .other-recipe .green-bg h5 {
+  width: 137px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
 * {
   padding: 0;
   margin: 0;

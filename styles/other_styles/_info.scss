@@ -535,3 +535,203 @@
         color: rgba(0, 0, 0, 0.6);
     }
 }
+
+.ingredient-box{
+    // border: 1px solid;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+
+    .ingredients-recipes{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+        .ingredients{
+            // border: 1px solid;
+            display: flex;
+            flex-direction: column;
+            // padding: 5px;
+            gap: 10px;
+
+            .sauce{
+                margin-top: 25px;
+            }
+            h2{
+                width: 224px;
+                // border: 1px solid;
+                height: 44px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 36px;
+                line-height: 44px;
+                letter-spacing: -0.04em;
+                color: #000000;
+                padding-bottom: 10px;
+            }
+
+            h3{
+                width: 144px;
+                height: 29px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 24px;
+                line-height: 29px;                
+                letter-spacing: -0.04em;
+                color: #000000;
+                padding-top: 10px;
+            }
+
+            .checkbox-list{
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: flex-start;
+                gap: 20px;
+                border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+                padding: 20px 0;
+                input{
+                    width: 20px;
+                    height: 20px;
+                    background-color: black;
+                }
+
+                p{
+                    width: 253px;
+                    height: 22px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 35px;
+                    letter-spacing: -0.02em;
+                    color: #000000;
+                    
+                }
+
+                .opacity-none{
+                    opacity: 0.1;
+                }
+            }
+        }
+
+        .other-recipe{
+            // border: 1px solid red;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            h3{
+                width: 188px;
+                height: 39px;
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 32px;
+                line-height: 39px;
+                letter-spacing: -0.04em;
+                color: #000000;
+            }
+
+            .img-text{
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                // border: 1px solid;
+                gap: 15px;
+
+                img{
+                    border-radius: 20px;
+                }
+
+                .title-text{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+                    h3{
+                        // border: 1px solid;
+                        width: 190px;
+                        height: 56px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 20px;
+                        line-height: 28px;
+                        letter-spacing: -0.04em;
+                        color: #000000;
+                    }
+
+                    h4{
+                        width: 113px;
+                        height: 17px;
+                        font-family: 'Inter';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        line-height: 17px;
+                        letter-spacing: -0.02em;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+                }
+            }
+
+            .green-bg{
+                // border: 1px solid;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-around;
+                gap: 220px;
+                // justify-content: center;
+                // margin-top: 30px;
+                // margin-bottom: 30px;
+                z-index: 1;
+                position: relative;
+                width: 400px;
+                height: 434px;
+                background-image: url('../../assets/info-food-box/Rectangle 14.png');
+                
+                h3{
+                    width: 172px;
+                    height: 60px;
+                    font-family: 'Lobster';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 30px;
+                    text-align: center;
+                    color: #FFFFFF;
+                }
+
+                .kfc{
+                    position: absolute;
+                    top: 70px;
+                }
+
+                .star{
+                    position: absolute;
+                    top: 0px;
+                    z-index: -1;
+                }
+
+                h5{
+                    width: 137px;
+                    height: 17px;
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 17px;
+                    letter-spacing: -0.02em;
+                    color: rgba(255, 255, 255, 0.6);
+                }
+            }
+        }
+
+    }
+}
