@@ -1426,6 +1426,239 @@
   font-size: 20px;
 }
 
+.info-box {
+  width: 100%;
+  padding: 60px;
+}
+.info-box .top-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.info-box .top-box .title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.info-box .top-box .title h1 {
+  width: 777px;
+  height: 77px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 77px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.info-box .top-box .title .info-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 40px;
+}
+.info-box .top-box .title .info-time .info-chef {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.info-box .top-box .title .info-time .info-chef .nameDate {
+  display: flex;
+  flex-direction: column;
+  padding-right: 40px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.info-box .top-box .title .info-time .info-chef .nameDate h3 {
+  width: 86px;
+  height: 19px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  color: #000000;
+}
+.info-box .top-box .title .info-time .info-chef .nameDate h4 {
+  width: 97px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.info-box .top-box .title .info-time .prep-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 40px;
+  gap: 10px;
+}
+.info-box .top-box .title .info-time .prep-time a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.info-box .top-box .title .info-time .prep-time .prep-time-text {
+  display: flex;
+  flex-direction: column;
+}
+.info-box .top-box .title .info-time .prep-time .prep-time-text h3 {
+  width: 79px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.info-box .top-box .title .info-time .prep-time .prep-time-text h4 {
+  width: 71px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.info-box .top-box .title .info-time .cook-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 40px;
+  gap: 10px;
+}
+.info-box .top-box .title .info-time .cook-time a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+.info-box .top-box .title .info-time .cook-time .cook-time-text {
+  display: flex;
+  flex-direction: column;
+}
+.info-box .top-box .title .info-time .cook-time .cook-time-text h3 {
+  width: 79px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.info-box .top-box .title .info-time .cook-time .cook-time-text h4 {
+  width: 71px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.info-box .top-box .title .info-time .cutlery {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.info-box .top-box .title .info-time .cutlery a {
+  font-size: 18px;
+  color: black;
+  text-decoration: none;
+}
+.info-box .top-box .title .info-time .cutlery h4 {
+  width: 53px;
+  height: 17px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 26px;
+  /* identical to box height */
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+}
+.info-box .top-box .print-share {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.info-box .top-box .print-share .print {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.info-box .top-box .print-share .print a {
+  text-decoration: none;
+  color: black;
+  width: 80px;
+  height: 80px;
+  background: #E7FAFE;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-box .top-box .print-share .print h3 {
+  width: 41px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+.info-box .top-box .print-share .share {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.info-box .top-box .print-share .share a {
+  text-decoration: none;
+  color: black;
+  width: 80px;
+  height: 80px;
+  background: #E7FAFE;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-box .top-box .print-share .share h3 {
+  width: 41px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #000000;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -1433,6 +1666,7 @@
 }
 
 .container {
+  border: 1px solid grey;
   display: flex;
   flex-direction: column;
 }/*# sourceMappingURL=style.css.map */

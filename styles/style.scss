@@ -6,6 +6,7 @@
 @import './other_styles/box-six';
 @import './other_styles/box_seven';
 @import './other_styles/footer';
+@import './other_styles/info';
 
 *{
     padding: 0;
@@ -14,7 +15,7 @@
 }
 
 .container{
-    // border: 1px solid;
+    border: 1px solid grey;
     display: flex;
     flex-direction: column;
 }
